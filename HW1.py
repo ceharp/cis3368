@@ -1,8 +1,5 @@
-import flask
 import mysql.connector
 import datetime
-from flask import jsonify
-from flask import request, make_response
 from mysql.connector import Error
 from sql import create_connection
 from sql import execute_query
