@@ -44,23 +44,24 @@ def menu():
     elif option == 'u':
         print('Update item details\n')
 
-
+    #Print items in alphabetical order
     elif option == 'r1':
         cursor.execute("Select * FROM shoppinglist")
         result = cursor.fetchall()
         for row in result:
             print(row)
-
+    
+    #Print items by quantity
     elif option == 'r2':
         cursor.execute("Select * FROM shoppinglist")
         result = cursor.fetchall()
         for row in result:
             print(row)
-
+    #Exit script
     elif option == 'q':
         print("Until next time!")
         quit()
-
+    #Response to incorrect input
     else:
         print('Invalid selection')
 
