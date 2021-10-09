@@ -7,7 +7,7 @@ from sql import execute_read_query
 from datetime import date
 
 #Creating connection to mysql database
-conn = create_connection("cis3368.cxqdgumdlo2t.us-east-2.rds.amazonaws.com", "ceharp", "B3ntley3", "cis3368")
+conn = create_connection("school1.cxqdgumdlo2t.us-east-2.rds.amazonaws.com", "ceharp", "jackson1", "school1") #i made this edit because i realized during the exam that my first database stopped working
 
 #Main function
 def menu():
